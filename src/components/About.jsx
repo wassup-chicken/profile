@@ -1,10 +1,10 @@
 import SectionTitle from "./SectionTitle";
-import aboutSvg from "../assets/about.svg";
+import profileImg from "../assets/profile.png";
 const About = () => {
   return (
     <section id="about" className="py-20">
       <div className="align-element grid md:grid-cols-2 items-center gap-8">
-        <img src={aboutSvg} className="w-full h-64 hidden sm:block" />
+        <img src={profileImg} className="w-full h-64 hidden sm:block" />
         <article>
           <SectionTitle text={"About me.."} />
           <p className="text-slate-600 mt-8 leading-loose">
