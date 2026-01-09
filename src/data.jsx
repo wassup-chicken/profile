@@ -1,5 +1,6 @@
 import { nanoid } from "nanoid";
-import { FaHtml5, FaJava, FaJs, FaReact, FaGolang } from "react-icons/fa";
+import { FaHtml5, FaJava, FaJs, FaReact } from "react-icons/fa";
+import { FaGolang } from "react-icons/fa6";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
