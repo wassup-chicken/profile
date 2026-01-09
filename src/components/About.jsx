@@ -3,8 +3,13 @@ import profileImg from "../assets/profile.png";
 const About = () => {
   return (
     <section id="about" className="py-20">
-      <div className="align-element grid md:grid-cols-2 items-center gap-8">
-        <img src={profileImg} className="w-full h-64 hidden sm:block" />
+      <div className="align-element grid sm:grid-cols-2 items-center gap-8">
+        <div className="flex justify-center items-center">
+          <img
+            src={profileImg}
+            className="h-64 w-64 rounded-full object-cover"
+          />
+        </div>
         <article>
           <SectionTitle text={"About me.."} />
           <p className="text-slate-600 mt-8 leading-loose">
