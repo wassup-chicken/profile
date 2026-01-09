@@ -11,7 +11,7 @@ const About = () => {
           />
         </div>
         <article>
-          <SectionTitle text={"About me.."} />
+          <SectionTitle text={"About me"} />
           <p className="text-slate-600 mt-8 leading-loose">
             I’m Seung — a software engineer with a strong background in backend
             development, and enterprise systems. I'm currently working on

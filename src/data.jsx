@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid";
-import { FaHtml5, FaJava, FaJs, FaReact } from "react-icons/fa";
+import { FaHtml5, FaJava, FaJs, FaPython, FaReact } from "react-icons/fa";
 import { FaGolang } from "react-icons/fa6";
 
 export const links = [
@@ -31,7 +31,7 @@ export const skills = [
   {
     id: nanoid(),
     title: "Python",
-    icon: <FaJava className="h-16 w-16 text-emerald-500" />,
+    icon: <FaPython className="h-16 w-16 text-emerald-500" />,
     text: "Okay",
   },
   {

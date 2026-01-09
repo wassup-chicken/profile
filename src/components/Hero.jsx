@@ -1,4 +1,4 @@
-import heroImg from "../assets/hero.svg";
+import heroImg from "../assets/hero.png";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
@@ -23,7 +23,10 @@ const Hero = () => {
           </div>
         </article>
         <article className="hidden md:block">
-          <img src={heroImg} className="h-80 lg:h-96" />
+          <img
+            src={heroImg}
+            className="mx-auto w-72 h-80 lg:h-96 lg:w-80 rounded-4xl"
+          />
         </article>
       </div>
     </div>
